@@ -9,11 +9,12 @@ sudo apt update -yy
 # install (curl) and (wget)
 sudo apt install curl wget lolcat figlet -yy
 # update all installed package
-sudo apt upgrade -yy
+sudo apt upgrade -yy | lolcat
 # downloading astronaut jellyfish wallpaper
-sudo wget https://i.pinimg.com/originals/2f/f2/6a/2ff26a3dd03271d1764c36af3ff448de.jpg
-# moving the wallpaper to Desktop
-sudo mv 2ff26a3dd03271d1764c36af3ff448de.jpg /home/$USER/Desktop
+SRC_URI="https://i.pinimg.com/originals/2f/f2/6a/2ff26a3dd03271d1764c36af3ff448de.jpg"
+FNAME="/home/$USER/Pictures/black.png"
+wget "$SRC_URI" -O "$FNAME"
+gsettings set org.gnome.desktop.background picture-uri "$FNAME"
 # BANNER
 sudo figlet created by Bassam Qadumi | lolcat
 
