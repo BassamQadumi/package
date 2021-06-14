@@ -1,4 +1,4 @@
-!# /usr/bin/bash
+#!/usr/bin/bash
 # Adding the repositorys needed
 sudo add-apt-repository main -yy
 sudo add-apt-repository universe -yy
