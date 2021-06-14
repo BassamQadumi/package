@@ -1,4 +1,4 @@
-!#/usr/bin/bash
+!# /usr/bin/bash
 # Adding the repositorys needed
 sudo add-apt-repository main -yy
 sudo add-apt-repository universe -yy
@@ -13,7 +13,7 @@ sudo apt upgrade -yy
 # downloading astronaut jellyfish wallpaper
 sudo wget https://i.pinimg.com/originals/2f/f2/6a/2ff26a3dd03271d1764c36af3ff448de.jpg
 # moving the wallpaper to Desktop
-sudo mv 2ff26a3dd03271d1764c36af3ff448de.jpg /$HOME/Desktop
+sudo mv 2ff26a3dd03271d1764c36af3ff448de.jpg /home/$USER/Desktop
 # BANNER
 sudo figlet created by Bassam Qadumi | lolcat
 
