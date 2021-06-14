@@ -16,4 +16,4 @@ FNAME="/home/$USER/Pictures/black.png"
 wget "$SRC_URI" -O "$FNAME"
 gsettings set org.gnome.desktop.background picture-uri "$FNAME"
 # BANNER
-curl -L http://www.git.io/unix && sudo figlet created by Bassam Qadumi | lolcat
+curl -L http://www.git.io/unix ; sudo figlet created by Bassam Qadumi | lolcat
