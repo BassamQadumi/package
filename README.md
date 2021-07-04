@@ -1,5 +1,5 @@
 # package
-IS a simple script for adding universe multivers and some other repository,
+IS a simple script for adding universe multivers and some other repositorys,
 it does everything automatically
 
 ________________________________
